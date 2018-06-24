@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="FCC: Portfolio Page">
+    <meta name="keywords" content="Freecodecamp, responsive-web-design, project, portfolio">
+    <meta name="author" content="Michael J Peppers <mcgdevfunk824@protonmail.com>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <title>Portfolio Page</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T " crossorigin="anonymous "></script>
+    <script src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<div class="container-fluid">
+    <nav class="navbar navbar-inverse nav-justified navbar-static-top navbar-expand-lg navbar-secondary bg-dark my-2 my-lg-0 mr-sm-0 my-sm-0 shadow-lg">
+        <div class="navbar-header">
+            <a href="#hero" class="navbar-brand"><img src="mjplogo.png" alt="logo" width="40px;"></a>
+        </div>
+        <ul class="list-unstyled nav navbar-nav list-inline">
+            <li class="nav-item">
+                <a class="btn blinds" href="#about" role="button"><strong>About</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="btn blinds" href="#blog" role="button"><strong>Blog</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="btn blinds" href="#projects" role="button"><strong>Projects</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="btn blinds" href="#contact" role="button"><strong>Contact</strong></a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<section id="hero">
+    <div class="jumbotron jumbotron-fluid jumbotron-billboard">
+        <div class="container-fluid" id="avatar">
+            <img class="img-circle img-responsive center-block shadow-lg avatar" src="avatar.png" height="25%" width="25%" alt="avatar-pic">
+        </div>
+        <div class="hero-content">
+            <div class="col-sm-10 offset-sm-1">
+                <h1 class="display-3">Michael J Peppers</h1>
+                <br />
+                <br />
+                <br />
+                <h2>I am
+                    <span class="txt-rotate" data-period="2000" data-rotate='[ "a Full-Stack Developer.", "a Designer.", "a Nerd.", "a Dude who loves to code."]'></span>
+                </h2>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="section-content">
+        <div class="container-fluid">
+            <hr />
+            <h1 class="section-title">About Me</h1>
+            <p class="lead">Hi there! I'm Michael J Peppers, and I'm a self-taught developer. Before I got into development, I worked as a nurse. However, after I broke my back in a car accident I was no longer able to physically perform my duties. While I recovered
+                from the injuries, I found Python. I read as many books as I could find, following along building some simple projects to get an idea of how it all worked. From that moment on, I was hooked. I now specialize in Full-stack Web Development
+                and RWD, but I also dabble in web scraping with additional forays into data science and machine learning. Below you'll find some quick bites of information about yours truly.</p>
+            <br />
+            <br />
+            <section id="skills">
+                <div class="skill-icons">
+                    <div class="container">
+                        <i class="fab fa-python fa-3x skills" style="color:yellow;"></i>
+                        <i class="fab fa-js fa-3x skills" style="color:blue;"></i>
+                        <i class="fab fa-sass fa-3x skills" style="color:pink;"></i>
+                        <i class="fab fa-vuejs fa-3x skills" style="color:green;"></i>
+                        <i class="fab fa-css3 fa-3x skills" style="color:red;"></i>
+                        <i class="fas fa-paw fa-3x skills" style="color:gold;"></i>
+                        <i class="fab fa-html5 fa-3x skills" style="color:orange;"></i>
+                        <i class="fab fa-react fa-3x skills" style="color:lightskyblue;"></i>
+                        <i class="fab fa-angular fa-3x skills" style="color:orangered;"></i>
+                        <i class="fab fa-linux fa-3x skills"></i>
+                        <i class="fab fa-node fa-3x skills" style="color:green;"></i>
+                        <i class="fab fa-aws fa-3x skills" style="color:crimson;"></i>
+                        <i class="fab fa-android fa-3x skills" style="color:greenyellow;"></i>
+                        <i class="fab fa-less fa-3x skills" style="color:darkturquoise;"></i>
+                        <i class="fab fa-php fa-3x skills" style="color:mediumpurple;"></i>
+                        <i class="fab fa-uikit fa-3x skills" style="color:deeppink;"></i>
+                        <i class="fab fa-wordpress fa-3x skills" style="color:lightseagreen;"></i>
+                        <i class="fab fa-digital-ocean fa-3x skills" style="color:blue;"></i>
+                        <i class="fab fa-ember fa-3x skills" style="color:darkorange;"></i>
+                        <i class="fas fa-flask fa-3x skills" style="color:darkgrey;"></i>
+                        <i class="fab fa-grav fa-3x skills" style="color:darkslategrey;"></i>
+                        <i class="fab fa-mastodon fa-3x skills" style="color:maroon;"></i>
+                    </div>
+                </div>
+            </section>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card-group-wrapper">
+                        <div class="card-group">
+                            <div class="card mx-4">
+                                <div class="card-block">
+                                    <h4 class="card-title">Freelance</h4>
+                                </div>
+                                <img class="img-fluid" src="analytics.jpg" alt="analytics">
+                                <div class="card-block">
+                                    <p class="card-text">I began working as a Freelance developer back in February 2016. My role was to work remotely underneath the lone Senior Developer this start-up had, at first I was nervous, but that didn't last long. It didn't take
+                                        me long to realize this "Senior Dev" wasn't much of a developer at all, and he was just winging it for the most part. That's been a common thread in many of my Freelance opportunities, Clients hire some Dev who
+                                        ends up leaving them with unfinished code, or worse...</p>
+                                    <button type="button" class="btn rainbow" data-toggle="modal" data-target="#serviceModal1">Learn more</button>
+                                    <div class="modal fade" id="serviceModal1" tabindex="-1" role="dialog" aria-labelledby="serviceModal1" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="serviceModal1">Freelance</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                </div>
+                                                Since 2016 I've worked for 14 different Clients:
+                                                <ul>
+                                                    <li>2016 - Green Machine | Colorado | Designed </li>
+                                                </ul>
+                                                <div class="modal-body">
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn rainbow" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mx-4">
+                                <div class="card-block">
+                                    <h4 class="card-title">Development</h4>
+                                </div>
+                                <img class="img-fluid" src="development.jpg" alt="development">
+                                <div class="card-block">
+                                    <p class="card-text">Knowing which tool is best for the job at hand is a great skill for a handyman to have, but doubly so for developers.</p>
+                                    <button type="button" class="btn rainbow" data-toggle="modal" data-target="#serviceModal2">Learn more</button>
+                                    <div class="modal fade" id="serviceModal2" tabindex="-1" role="dialog" aria-labelledby="serviceModal2" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="serviceModal2">Development</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn rainbow" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mx-4">
+                                <div class="card-block">
+                                    <h4 class="card-title">Design</h4>
+                                </div>
+                                <img class="img-fluid" src="mobile-first.jpeg" alt="mobile-first">
+                                <div class="card-block">
+                                    <p class="card-text">Creating rich user experiences through design is a unique challenge for every project. What worked for one project, may have unfavorable results with a different project.</p>
+                                    <button type="button" class="btn rainbow" data-toggle="modal" data-target="#serviceModal3">Learn more</button>
+                                    <div class="modal fade" id="serviceModal3" tabindex="-1" role="dialog" aria-labelledby="serviceModal3" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="serviceModal3">Design</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn rainbow" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<hr />
+<section id="blog" class="bg-secondary text-white">
+    <div class="section-content">
+        <div class="container">
+            <div class="col-md-8">
+                <div class="about-text">
+                    <h3>Check out my Blog!</h3>
+                    <p class="lead">If you are interested in learning how to code, or if you'd just simply like to read some of my posts, check out<a href="http://dangernoodles.servebeer.com/crunchycode" class="blog" style="color:rgb(38, 230, 255);"><strong>  My Blog here.</strong></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr />
+<section id="projects" class="bg-light">
+    <div class="section-content">
+        <div class="container">
+            <h1 class="section-title text-capitalize"><u>Projects</u></h1>
+            <p>Here are some of my previous projects</p>
+            <div class="row no-gutters">
+                <div class="col-sm-12">
+                    <div class="card-deck-wrapper">
+                        <div class="card-deck">
+                            <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/39937343-3f50fd52-5504-11e8-9e38-42f0566c9c38.png" alt="mothers-day-app">
+                                <div class="card-block">
+                                    <h4 class="card-title">Mother's Day App</h4>
+                                    <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/mothersdayapp/">Live Demo</a></button>
+                                    <h4 class="skills-used">Skills used:</h4>
+                                    <div class="btn-group btn-group-sm tags">
+                                        <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                        <i class="fab fa-sass sass" style="color:rgb(246, 29, 228);">SASS</i>
+                                        <i class="fab fa-js js" style="color: darkgoldenrod;);">JavaScript</i>
+                                        <i class="fas fa-paw pug" style="color:#695c20;">Pug</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/41514437-e2e7aa5a-725b-11e8-9bf8-1446efbec855.png" alt="sound-galaxy-app">
+                                <div class="card-block">
+                                    <h4 class="card-title">Sound Galaxy</h4>
+                                    <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/soundgalaxy/">Live Demo</a></button>
+                                    <h4 class="skills-used">Skills used:</h4>
+                                    <div class="btn-group btn-group-sm tags">
+                                        <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                        <i class="fab fa-sass sass" style="color:rgb(246, 29, 228);">SASS</i>
+                                        <i class="fab fa-js js" style="color: darkgoldenrod;);">JavaScript</i>
+                                        <i class="fas fa-paw pug" style="color:#695c20;">Pug</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/41629675-b285bd4a-73df-11e8-9b60-310b4f34bc53.png" alt="iron-man-animated">
+                                <div class="card-block">
+                                    <h4 class="card-title">Suit Up Tony</h4>
+                                    <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/ironman/">Live Demo</a></button>
+                                    <h4 class="skills-used">Skills used:</h4>
+                                    <div class="btn-group btn-group-sm tags">
+                                        <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                        <i class="fab fa-css3 css" style="color:#1767fc;">CSS3</i>
+                                        <i class="fab fa-js js" style="color: darkgoldenrod;);">JavaScript</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                    <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/40032590-947ea2e6-57a9-11e8-8f92-0fb7d0c91886.png" alt="particle-text-app">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Particle Text</h4>
+                                        <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/particletext/">Live Demo</a></button>
+                                        <h4 class="skills-used">Skills used:</h4>
+                                        <div class="btn-group btn-group-sm tags">
+                                            <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                            <i class="fab fa-sass sass" style="color:rgb(246, 29, 228);">SASS</i>
+                                            <i class="fab fa-js js" style="color: darkgoldenrod;);">JavaScript</i>
+                                            <i class="fas fa-paw pug" style="color:#695c20;">Pug</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                    <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/40147172-73c10ac4-591d-11e8-994b-8cd95e477117.png" alt="markdown-notebook">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Markdown Notebook</h4>
+                                        <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/markdownnotebook/">Live Demo</a></button>
+                                        <h4 class="skills-used">Skills used:</h4>
+                                        <div class="btn-group btn-group-sm tags">
+                                            <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                            <i class="fab fa-css3 css" style="color:#1767fc;">CSS3</i>
+                                            <i class="fab fa-vuejs vue" style="color:rgb(49, 151, 2);">Vue.js</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                    <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/40394620-0b6408d0-5dd9-11e8-97c2-8647762137aa.png" alt="under-the-sea-app">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Under the Sea</h4>
+                                        <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/under-the-sea/">Live Demo</a></button>
+                                        <h4 class="skills-used">Skills used:</h4>
+                                        <div class="btn-group btn-group-sm tags">
+                                            <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                            <i class="fab fa-sass sass" style="color:rgb(246, 29, 228);">SASS</i>
+                                            <i class="fab fa-vuejs vue" style="color:rgb(49, 151, 2);">Vue.js</i>
+                                            <i class="fas fa-paw pug" style="color:#695c20;">Pug</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                    <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/41435562-1405550e-6fd4-11e8-9bc0-e2d62a5b1a01.png" alt="animated-photo-gallery">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Animated Photo Gallery</h4>
+                                        <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/photogallery/">Live Demo</a></button>
+                                        <h4 class="skills-used">Skills used:</h4>
+                                        <div class="btn-group btn-group-sm tags">
+                                            <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                            <i class="fab fa-sass sass" style="color:rgb(246, 29, 228);">SASS</i>
+                                            <i class="fab fa-js js" style="color: darkgoldenrod;);">JavaScript</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                    <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/40253115-6798b4fa-5a93-11e8-821a-99a5323310b2.png" alt="wallpaper-generator">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Minimalist Wallpaper Generator</h4>
+                                        <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/wallpaper-generator/">Live Demo</a></button>
+                                        <h4 class="skills-used">Skills used:</h4>
+                                        <div class="btn-group btn-group-sm tags">
+                                            <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                            <i class="fab fa-sass sass" style="color:rgb(246, 29, 228);">SASS</i>
+                                            <i class="fab fa-js js" style="color: darkgoldenrod;);">JavaScript</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                    <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/40161538-f009a7a6-5965-11e8-8a35-be9418f25a0a.png" alt="castle-duel-game">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Castle Duel Game</h4>
+                                        <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/castle-duel-game/">Live Demo</a></button>
+                                        <h4 class="skills-used">Skills used:</h4>
+                                        <div class="btn-group btn-group-sm tags">
+                                            <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                            <i class="fab fa-sass sass" style="color:rgb(246, 29, 228);">SASS</i>
+                                            <i class="fab fa-vuejs vue" style="color:rgb(49, 151, 2);">Vue.js</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                        <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/39979507-b8fed900-56fb-11e8-9dd5-b6c085fa232b.png" alt="digital-greeting-card">
+                                        <div class="card-block">
+                                            <h4 class="card-title">Digital Greeting Card</h4>
+                                            <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/greetingcard/">Live Demo</a></button>
+                                            <h4 class="skills-used">Skills used:</h4>
+                                            <div class="btn-group btn-group-sm tags">
+                                                <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                                <i class="fab fa-css3 css" style="color:#1767fc;">CSS3</i>
+                                                <i class="fab fa-js js" style="color: darkgoldenrod;);">JavaScript</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                        <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/40094281-e4447108-587a-11e8-94e6-dd35e16244c1.png" alt="giphy-api-wrapper">
+                                        <div class="card-block">
+                                            <h4 class="card-title">Giphy API Wrapper</h4>
+                                            <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/giphyapi/">Live Demo</a></button>
+                                            <h4 class="skills-used">Skills used:</h4>
+                                            <div class="btn-group btn-group-sm tags">
+                                                <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                                <i class="fab fa-sass sass" style="color:rgb(246, 29, 228);">SASS</i>
+                                                <i class="fab fa-vuejs vue" style="color:rgb(49, 151, 2);">Vue.js</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                        <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/41635845-d74349de-73ff-11e8-9465-7b9c8b76e00a.png" alt="mario-mike">
+                                        <div class="card-block">
+                                            <h4 class="card-title">Mario Mike Landing page</h4>
+                                            <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/mario-mike/">Live Demo</a></button>
+                                            <h4 class="skills-used">Skills used:</h4>
+                                            <div class="btn-group btn-group-sm tags">
+                                                <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                                <i class="fab fa-sass sass" style="color:rgb(246, 29, 228);">SASS</i>
+                                                <i class="fab fa-js js" style="color: darkgoldenrod;);">JavaScript</i>
+                                                <i class="fas fa-paw pug" style="color:#695c20;">Pug</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row no-gutters">
+                                        <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                            <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/41631029-43df2c8e-73e7-11e8-8845-9194c920bc78.png" alt="zero-net-docs">
+                                            <div class="card-block">
+                                                <h4 class="card-title">ZeroNet Documentation</h4>
+                                                <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/technical-doc-project/">Live Demo</a></button>
+                                                <h4 class="skills-used">Skills used:</h4>
+                                                <div class="btn-group btn-group-sm tags">
+                                                    <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                                    <i class="fab fa-css3 css" style="color:#1767fc;">CSS3</i>
+                                                    <i class="fab fa-bitcoin" style="color:black;">Bitcoin</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                            <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/40282486-f767c67e-5c24-11e8-8498-e737ad9303f4.png" alt="switchboard-app">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Functional Switchboard</h4>
+                                                <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/switchboard/">Live Demo</a></button>
+                                                <h4 class="skills-used">Skills used:</h4>
+                                                <div class="btn-group btn-group-sm tags">
+                                                    <i class="fab fa-html5 html" style="color:#ff1818;">HTML</i>
+                                                    <i class="fab fa-css3 css" style="color:#1767fc;">CSS3</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                            <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/41636377-e49b6046-7402-11e8-9169-0232383e7697.png" alt="fluid-pic-app">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Fluid Pic</h4>
+                                                <button class="btn rainbow" type="button"><a href="https://mcgdevfunk824.github.io/fluid-pic/">Live Demo</a></button>
+                                                <h4 class="skills-used">Skills used:</h4>
+                                                <div class="btn-group btn-group-sm tags">
+                                                    <i class="fab fa-html5 html bg-light" style="color:#ff1818;">HTML</i>
+                                                    <i class="fab fa-sass sass bg-light" style="color:rgb(246, 29, 228);">SASS</i>
+                                                    <i class="fab fa-js js bg-light" style="color: darkgoldenrod;);">JavaScript</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mt-5 mx-4 shadow-lg rounded hover">
+                                            <img class="card-img-top" src="https://user-images.githubusercontent.com/28616709/41762984-7eda7160-75b1-11e8-9de4-62a6f3c5646d.jpg" alt="python-mountain">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Python Mountain</h4>
+                                                <button class="btn rainbow" type="button"><a href="https://github.com/McGdevfunk824/pymountain/tree/master">Source</a></button>
+                                                <h4 class="skills-used">Skills used:</h4>
+                                                <div class="btn-group btn-group-sm tags">
+                                                    <i class="fab fa-python python" style="color:rgb(0, 92, 179);">Python</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="container more">
+                <h1 class="more-title">View more of my work here</h1>
+                <i class="fab fa-github-square fa-3x skills" style="color:slategray;"></i><button class="btn blinds" type="button"><a href="https://github.com/McGdevfunk824"><strong>Github</strong></a></button>
+                <i class="fab fa-codepen fa-3x skills" style="color:navy;"></i><button class="btn blinds" type="button"><a href="https://https://codepen.io/McGdevfunk824/"><strong>Codepen</strong></a></button>
+                <i class="fab fa-docker fa-3x skills" style="color:dodgerblue;"></i><button class="btn blinds" type="button"><a href="https://store.docker.com/profiles/mcgdevfunk824/content"><strong>Docker</strong></a></button>
+                <i class="fab fa-free-code-camp fa-3x skills" style="color:green;"></i><button class="btn blinds" type="button"><a href="https://www.freecodecamp.org/mcgdevfunk824"><strong>Freecodecamp</strong></a></button>
+</section>
+<hr />
+<section id="iframe">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://mcgdevfunk824.github.io/work-form/" scrolling="no"></iframe>
+    </div>
+</section>
+<hr />
+<section id="footer">
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-logo">
+                        <a href="#"><img src="mjplogo.png" alt="mjp-p4t logo" </a>
+                            <ul class="footer-follow">
+                                <li><a href="#"><i class="fab fa-twitter fa-3x"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin fa-3x"></i></a></li>
+                                <li><a href="#"><i class="fab fa-github-square fa-3x"></i></a></li>
+                                <li><a href="#"><i class="fab fa-codepen fa-3x"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube fa-3x"></i></a></li>
+                            </ul>
+
+                            <div class="footer-copyright">
+                                <p>Copyright © 2018-2020. All Rights Reserved. <a href="https://mcgdevfunk824.github.io/mjp-p4t/" target="_blank">MJP P4T</a></p>
+                                <a href="https://mcgdevfunk824.github.io/mjp-p4t/privacypolicy.html" target="_blank">Privacy Policy</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+
+<a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up fa-3x" style="color:floralwhite;"></i></a>
+
+<script src="App.js"></script>
+
+</html>
