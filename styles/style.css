@@ -69,8 +69,8 @@ hr:after {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 60%;
-    width: 60%;
+    height: 33%;
+    width: 33%;
 }
 
 .avatar img {
